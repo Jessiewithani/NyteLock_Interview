@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import LogoHeading from './components/LogoHeading';
+import LogoTypesContainer from './components/LogoTypesContainer';
 
 function App() {
   return (
@@ -10,9 +11,7 @@ function App() {
       <section className="logo-services-container">
         <div className="logo-services-wrap">
           <LogoHeading />
-          <section className="logo-types-container">
-            {/* In here would be the different logo cards */}
-          </section>
+          <LogoTypesContainer />
         </div>
       </section>
       {/* this is where the types of logo styles would be */}

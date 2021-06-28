@@ -1,11 +1,28 @@
 .App {
   text-align: center;
-  background-color: cornsilk;
+  background-color: black;
   height: 100vh;
 }
 
 h2 {
   margin-top: 0;
+  color: white
+}
+
+.logo-services-container {
+  background-color: white;
+  height: 562px;
+}
+
+.logo-services-wrap {
+  background-color: gold;
+  padding-top: 110px;
+  height: inherit;
+}
+
+.logo-header {
+  background-color: cornsilk;
+  height: 156px;
 }
 
 

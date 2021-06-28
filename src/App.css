@@ -17,12 +17,27 @@ h2 {
 .logo-services-wrap {
   background-color: gold;
   padding-top: 110px;
+  padding-bottom: 90px;
   height: inherit;
 }
 
-.logo-header {
+.logo-header-container {
   background-color: cornsilk;
   height: 156px;
+  display: flex;
 }
 
+.heading-container {
+  width: 819px;
+  background-color: RosyBrown;
+}
 
+.contact-btn-container {
+  width: 351px;
+  background-color: tan
+}
+
+.logo-types-container {
+  height: 204px;
+  background-color: wheat;
+}

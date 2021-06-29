@@ -10,14 +10,23 @@ h2 {
 }
 
 .logo-services-container {
-  background-color: white;
+  background-color: grey;
+  width: 2880px;
   height: 562px;
 }
 
 .logo-services-wrap {
   background-color: gold;
-  padding-top: 110px;
-  padding-bottom: 90px;
-  height: inherit;
+  /* padding-top: 110px;
+  padding-bottom: 90px; */
+  height: 560px;
+  width: 1410px;
+
+}
+
+.logo-description-container {
+  background-color: pink;
+  width: 2880px;
+  height: 562px;
 }
 

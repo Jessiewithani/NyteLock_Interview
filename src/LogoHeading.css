@@ -2,6 +2,8 @@
   background-color: cornsilk;
   height: 156px;
   display: flex;
+  margin-left: 105px;
+  margin-right: 105px;
 }
 
 .heading-container {

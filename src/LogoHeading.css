@@ -1,18 +1,5 @@
-.logo-header-container {
-  background-color: cornsilk;
+.logo-heading-container {
   height: 156px;
-  display: flex;
-  margin-left: 105px;
-  margin-right: 105px;
-}
-
-.heading-container {
-  width: 819px;
-  background-color: RosyBrown;
-}
-
-.contact-btn-container {
-  width: 351px;
-  background-color: tan
+  background-color: wheat;
 }
 

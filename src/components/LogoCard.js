@@ -6,8 +6,10 @@ const LogoCard = ({icon, title, url}) => {
     <section className="logo-card">
       <div className="card-wrap">
         {/* this whole card needs to be a link or have a link?? */}
-        <div>{icon}</div>
-        <h5>{title}</h5>
+        <a href={url}>
+          <div>{icon}</div>
+          <h5>{title}</h5>
+        </a>
       </div>
     </section>
   )

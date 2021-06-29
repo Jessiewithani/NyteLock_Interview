@@ -2,31 +2,33 @@
   text-align: center;
   background-color: black;
   height: 100vh;
-}
-
-h2 {
-  margin-top: 0;
-  color: white
+  margin: 0;
 }
 
 .logo-services-container {
-  background-color: grey;
-  width: 2880px;
-  height: 562px;
-}
-
-.logo-services-wrap {
   background-color: gold;
-  /* padding-top: 110px;
-  padding-bottom: 90px; */
+  height: 100vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+}
+
+.logo-types-container {
+  background-color: white;
   height: 560px;
-  width: 1410px;
+  border-radius: 15px;
+  padding-top: 110px;
+  
+}
+
+.logo-types-wrapper {
+  height: 360px;
+  background-color: cornsilk;
+  margin-left: 105px;
+  margin-right: 105px;
 
 }
 
-.logo-description-container {
-  background-color: pink;
-  width: 2880px;
-  height: 562px;
-}
+
+
 

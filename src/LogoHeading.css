@@ -1,16 +1,5 @@
-.logo-header-container {
-  background-color: cornsilk;
+.logo-heading-container {
   height: 156px;
-  display: flex;
-}
-
-.heading-container {
-  width: 819px;
-  background-color: RosyBrown;
-}
-
-.contact-btn-container {
-  width: 351px;
-  background-color: tan
+  background-color: wheat;
 }
 

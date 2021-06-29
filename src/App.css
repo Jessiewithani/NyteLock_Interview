@@ -2,22 +2,33 @@
   text-align: center;
   background-color: black;
   height: 100vh;
-}
-
-h2 {
-  margin-top: 0;
-  color: white
+  margin: 0;
 }
 
 .logo-services-container {
-  background-color: white;
-  height: 562px;
+  background-color: gold;
+  height: 100vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
 }
 
-.logo-services-wrap {
-  background-color: gold;
+.logo-types-container {
+  background-color: white;
+  height: 560px;
+  border-radius: 15px;
   padding-top: 110px;
-  padding-bottom: 90px;
-  height: inherit;
+  
 }
+
+.logo-types-wrapper {
+  height: 360px;
+  background-color: cornsilk;
+  margin-left: 105px;
+  margin-right: 105px;
+
+}
+
+
+
 

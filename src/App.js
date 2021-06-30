@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import LogoHeading from './components/LogoHeading';
 import LogoTypesContainer from './components/LogoTypesContainer';
+import LogoDescription from './components/LogoDescription';
+
 
 function App() {
   return (
@@ -14,7 +16,7 @@ function App() {
           </div>
         </section>
         <section className="logo-description-container">
-
+          <LogoDescription />
         </section>
       </div>
     </div>

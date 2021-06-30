@@ -1,0 +1,42 @@
+.logo-description-wrapper {
+  width: 1140px;
+  background-color: wheat;
+  display: flex;
+  padding-left: 15px;
+
+}
+
+.logo-description-section {
+  height: 434px;
+  width: 570px;
+  background-color: lightgrey;
+  border: 2px solid black;
+}
+
+.logo-title-container {
+  height:62px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.logo-title {
+  margin: 0;
+  text-align: start;
+}
+
+.logo-detail-container {
+  height: 368px;
+  background-color: lightpink;
+}
+
+.logo-detail {
+  margin: 0;
+  text-align: start;
+}
+
+.logo-examples {
+  height: 434px;
+  width: 570px;
+  background-color: darkgrey;
+  border: 2px solid black;
+}

@@ -18,17 +18,14 @@ const LogoTypesContainer = () => {
       key={type.id} 
       icon={type.icon} 
       title={type.title} 
-      url={(<Link to={'descriptions/' + type.id} />)}
+      url={(<Link to={`/descriptions/${type.id}`} />)}
       // clicked={clicked}
     />
   })
   return (
-    <Router>
-      <section className="logo-cards-container">
-        {/* In here would be the different logo cards */}
+    <section className="logo-cards-container">
         {logoType}
-      </section>
-    </Router>
+    </section>
   )
 }
 

@@ -1,17 +1,18 @@
 import React from 'react';
 import '../LogoCard.css';
+import { Link } from 'react-router-dom';
 
 const LogoCard = ({icon, title, url}) => {
   return (
-    <section className="logo-card">
-      <div className="card-wrap">
-        {/* this whole card needs to be a link or have a link?? */}
-        <a href={url}>
-          <div>{icon}</div>
-          <h5>{title}</h5>
-        </a>
-      </div>
-    </section>
+    <a href={url}>
+      <section className="logo-card">
+        <div className="card-wrap">
+          {/* this whole card needs to be a link or have a link?? */}
+            <div>{icon}</div>
+            <h5>{title}</h5>
+        </div>
+      </section>
+    </a>
   )
 }
 

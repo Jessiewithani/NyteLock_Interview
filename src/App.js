@@ -3,23 +3,33 @@ import './App.css';
 import LogoHeading from './components/LogoHeading';
 import LogoTypesContainer from './components/LogoTypesContainer';
 import LogoDescription from './components/LogoDescription';
+import { BrowserRouter as Router,
+Switch,
+Route,
+Link
+} from "react-router-dom";
 
 
 function App() {
   return (
-    <div className="App">
-      <div className="logo-services-container">
-        <section className="logo-types-container">
-          <div className="logo-types-wrapper">
-            <LogoHeading />
-            <LogoTypesContainer />
-          </div>
-        </section>
-        <section className="logo-description-container">
-          <LogoDescription />
-        </section>
+    <Router>
+      <div className="App">
+        <div className="logo-services-container">
+          <section className="logo-types-container">
+            <div className="logo-types-wrapper">
+              <LogoHeading />
+              <LogoTypesContainer />
+            </div>
+          </section>
+          <section className="logo-description-container">
+            <Route path="/descriptions">
+              {/* would i have to map from the data here to create a dynamic route?? */}
+              <LogoDescription />
+            </Route>
+          </section>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 

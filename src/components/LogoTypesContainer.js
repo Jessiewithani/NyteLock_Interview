@@ -7,7 +7,7 @@ const LogoTypesContainer = () => {
 
   // const [clicked, setClicked] = useState(false)
 
-  const logo = LogoTypes.map(type => {
+  const logoType = LogoTypes.map(type => {
     return <LogoCard 
       key={type.id} 
       icon={type.icon} 
@@ -17,9 +17,9 @@ const LogoTypesContainer = () => {
     />
   })
   return (
-    <section className="logo-types-container">
+    <section className="logo-cards-container">
       {/* In here would be the different logo cards */}
-      {logo}
+      {logoType}
     </section>
   )
 }

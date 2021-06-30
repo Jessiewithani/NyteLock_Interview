@@ -1,0 +1,10 @@
+.logo-card {
+  background-color: white;
+  height: 170px;
+  width: 138px;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}

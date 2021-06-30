@@ -10,7 +10,7 @@ function App() {
         <section className="logo-types-container">
           <div className="logo-types-wrapper">
             <LogoHeading />
-            {/* <LogoTypesContainer /> */}
+            <LogoTypesContainer />
           </div>
         </section>
         <section className="logo-description-container">

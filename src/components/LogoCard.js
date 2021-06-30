@@ -1,17 +1,16 @@
 import React from 'react';
 import '../LogoCard.css';
 
-const LogoCard = ({icon, title, url}) => {
+const LogoCard = ({icon, title, handleLogoClick}) => {
   return (
-    <a href={url}>
-      <section className="logo-card">
+      <button className="logo-card" onClick={handleLogoClick}>
         <div className="card-wrap">
           {/* this whole card needs to be a link or have a link?? */}
             <div>{icon}</div>
             <h5>{title}</h5>
         </div>
-      </section>
-    </a>
+      </button>
+    
   )
 }
 

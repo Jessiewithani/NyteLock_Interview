@@ -8,9 +8,21 @@ import { LogoTypes } from './LogoTypes';
 
 const App = () => {
 
-  const [logos, setLogos] = useState(LogoTypes);
+  const [logo, setLogo] = useState(LogoTypes[0]);
 
-  {console.log('logs', logos)}
+  // {console.log('logos', logo)}
+
+  const handleLogoClick = (id) => {
+    // console.log('event', e.target)
+    console.log('id', id)
+    for (let i = 0; i < LogoTypes.length; i++) {
+      if (id === LogoTypes[i].id) {
+        setLogo(LogoTypes[i])
+        console.log('set',logo)
+      }
+    }
+    
+  }
 
   return (
     <div className="App">
@@ -18,11 +30,11 @@ const App = () => {
         <section className="logo-types-container">
           <div className="logo-types-wrapper">
             <LogoHeading />
-            <LogoTypesContainer logos={logos}/>
+            <LogoTypesContainer logos={LogoTypes} handleLogoClick={(id) => handleLogoClick(id)}/>
           </div>
         </section>
         <section className="logo-description-container">
-          <LogoDescription />
+          <LogoDescription logo={logo} />
         </section>
       </div>
     </div>

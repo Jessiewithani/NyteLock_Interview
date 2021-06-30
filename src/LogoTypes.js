@@ -1,9 +1,11 @@
+import '../public/images'
+
 export const LogoTypes = [
   {
     icon: '',
     title: 'Lettermark Logos',
     description: 'Lettermark Desc',
-    image: 'https://nytelock.com/wp-content/uploads/2021/03/Screen-Shot-2021-03-20-at-12.58.49-AM.png',
+    image: '',
     id: 1
   },
   {

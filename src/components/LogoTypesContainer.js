@@ -1,19 +1,16 @@
-import React , {useState} from 'react';
+import React from 'react';
 import '../LogoTypesContainer.css';
-import { LogoTypes } from '../LogoTypes';
 import LogoCard from '../components/LogoCard';
 
 
-const LogoTypesContainer = () => {
+const LogoTypesContainer = ({logos}) => {
 
-  const [logo, setLogo] = useState(false)
-
-  const logoType = LogoTypes.map(type => {
+  const logoType = logos.map(logo => {
     return <LogoCard 
-      key={type.id} 
-      icon={type.icon} 
-      title={type.title} 
-      url={(<Link to={`/descriptions/${type.id}`} />)}
+      key={logo.id} 
+      icon={logo.icon} 
+      title={logo.title} 
+      url={logo.url}
       // clicked={clicked}
     />
   })

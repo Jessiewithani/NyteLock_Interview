@@ -1,6 +1,5 @@
 import React from 'react';
 import '../LogoCard.css';
-import { Link } from 'react-router-dom';
 
 const LogoCard = ({icon, title, url}) => {
   return (

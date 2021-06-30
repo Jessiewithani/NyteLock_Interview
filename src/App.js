@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import './App.css';
 import LogoHeading from './components/LogoHeading';
 import LogoTypesContainer from './components/LogoTypesContainer';
@@ -5,14 +6,19 @@ import LogoDescription from './components/LogoDescription';
 import { LogoTypes } from './LogoTypes';
 
 
-function App() {
+const App = () => {
+
+  const [logos, setLogos] = useState(LogoTypes);
+
+  {console.log('logs', logos)}
+
   return (
     <div className="App">
       <div className="logo-services-container">
         <section className="logo-types-container">
           <div className="logo-types-wrapper">
             <LogoHeading />
-            <LogoTypesContainer />
+            <LogoTypesContainer logos={logos}/>
           </div>
         </section>
         <section className="logo-description-container">

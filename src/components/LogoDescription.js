@@ -15,7 +15,7 @@ const LogoDescription = ({logo}) => {
         </div>
       </div>
       <div className="logo-examples">
-
+        <image src={logo.image} className="logo-images"/>
       </div>
     </section>
   )

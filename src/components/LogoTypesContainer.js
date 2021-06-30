@@ -1,34 +1,24 @@
-import React , {useState} from 'react';
+import React from 'react';
 import '../LogoTypesContainer.css';
-import { LogoTypes } from '../LogoTypes';
 import LogoCard from '../components/LogoCard';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 
-const LogoTypesContainer = () => {
 
-  // const [clicked, setClicked] = useState(false)
+const LogoTypesContainer = ({logos, handleLogoClick}) => {
 
-  const logoType = LogoTypes.map(type => {
+  const logoType = logos.map(logo => {
     return <LogoCard 
-      key={type.id} 
-      icon={type.icon} 
-      title={type.title} 
-      url={(<Link to={'descriptions/' + type.id} />)}
-      // clicked={clicked}
+      key={logo.id} 
+      id={logo.id}
+      icon={logo.icon} 
+      title={logo.title} 
+      url={logo.url}
+      handleLogoClick={() => handleLogoClick(logo.id)}
     />
   })
   return (
-    <Router>
-      <section className="logo-cards-container">
-        {/* In here would be the different logo cards */}
+    <section className="logo-cards-container">
         {logoType}
-      </section>
-    </Router>
+    </section>
   )
 }
 

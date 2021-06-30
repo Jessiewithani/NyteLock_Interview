@@ -2,43 +2,43 @@ export const LogoTypes = [
   {
     icon: '',
     title: 'Lettermark Logos',
-    description: '',
-    url: '#',
+    description: 'Lettermark Desc',
+    image: 'https://nytelock.com/wp-content/uploads/2021/03/Screen-Shot-2021-03-20-at-12.58.49-AM.png',
     id: 1
   },
   {
     icon: '',
     title: 'Wordmark Logos',
-    description: '',
-    url: '#',
+    description: 'Wordmark Desc',
+    image: '',
     id: 2
   },
   {
     icon: '',
     title: 'Pictorial Mark Logos',
-    description: '',
-    url: '#',
+    description: 'Pictorial Desc',
+    image: '',
     id: 3
   },
   {
     icon: '',
     title: 'Abstract Mark Logos',
-    description: '',
-    url: '#',
+    description: 'Abstract Desc',
+    image: '',
     id: 4
   },
   {
     icon: '',
     title: 'Mascot Logos',
-    description: '',
-    url: '#',
+    description: 'Mascot Desc',
+    image: '',
     id: 5
   },
   {
     icon: '',
     title: 'Combination Logos',
-    description: '',
-    url: '#',
+    description: 'Combination Desc',
+    image: '',
     id: 6
   }
 ]

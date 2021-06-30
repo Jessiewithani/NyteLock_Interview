@@ -1,22 +1,40 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 import LogoHeading from './components/LogoHeading';
 import LogoTypesContainer from './components/LogoTypesContainer';
 import LogoDescription from './components/LogoDescription';
+import { LogoTypes } from './LogoTypes';
 
 
-function App() {
+const App = () => {
+
+  const [logo, setLogo] = useState(LogoTypes[0]);
+
+  // {console.log('logos', logo)}
+
+  const handleLogoClick = (id) => {
+    // console.log('event', e.target)
+    console.log('id', id)
+    for (let i = 0; i < LogoTypes.length; i++) {
+      if (id === LogoTypes[i].id) {
+        setLogo(LogoTypes[i])
+        console.log('set',logo)
+      }
+    }
+    
+  }
+
   return (
     <div className="App">
       <div className="logo-services-container">
         <section className="logo-types-container">
           <div className="logo-types-wrapper">
             <LogoHeading />
-            <LogoTypesContainer />
+            <LogoTypesContainer logos={LogoTypes} handleLogoClick={(id) => handleLogoClick(id)}/>
           </div>
         </section>
         <section className="logo-description-container">
-          <LogoDescription />
+          <LogoDescription logo={logo} />
         </section>
       </div>
     </div>
@@ -29,5 +47,5 @@ export default App;
 // 2. Convert the HTML layout to components
 // 3. Now that I have my components, I need to create a file with my needed data
 // 4. After creating the data, map through the data and make individual logo cards
-// 5. After making the cards, I need to now add routes so that when I click ont he card, it leads me to the correct description
+// 5. After making the cards, I need to connect the descriptions
 // 6. 

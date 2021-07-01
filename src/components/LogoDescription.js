@@ -1,9 +1,11 @@
 import React from 'react';
 import '../LogoDescription.css'
 
-const LogoDescription = ({logo}) => {
 
-  console.log('logo in desc', logo)
+const LogoDescription = ({logo, logoEx}) => {
+
+  console.log('img', logoEx)
+  
   return (
     <section className="logo-description-wrapper">
       <div className="logo-description-section">
@@ -15,7 +17,7 @@ const LogoDescription = ({logo}) => {
         </div>
       </div>
       <div className="logo-examples">
-        <image src={logo.image} className="logo-images"/>
+        <img src={logoEx} alt="logo-image" className="logo-images"/>
       </div>
     </section>
   )

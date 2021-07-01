@@ -1,6 +1,7 @@
 import React from 'react';
 import '../LogoCard.css';
 
+
 const LogoCard = ({icon, title, handleLogoClick}) => {
   return (
       <button className="logo-card" onClick={handleLogoClick}>

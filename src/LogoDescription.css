@@ -34,11 +34,14 @@
   text-align: start;
 }
 
-.logo-examples {
+.logo-examples-container {
   height: 434px;
   width: 570px;
   background-color: darkgrey;
   border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo-images {

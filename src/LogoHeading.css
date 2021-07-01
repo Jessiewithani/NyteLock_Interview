@@ -1,5 +1,21 @@
 .logo-heading-container {
   height: 156px;
-  background-color: wheat;
+  background-color: bisque;
+  display: flex;
+  align-items: flex-end;
+}
+
+.heading-wrapper {
+  height: 110px;
+  background-color: pink;
+  width: 819px;
+  margin-bottom: 45px;
+}
+
+.contact-btn-container {
+  background-color: green;
+  width: 377px;
+  height: 110px;
+  margin-bottom: 45px;
 }
 

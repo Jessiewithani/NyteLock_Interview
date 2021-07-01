@@ -7,7 +7,9 @@ const LogoCard = ({icon, title, handleLogoClick}) => {
       <button className="logo-card" onClick={handleLogoClick}>
         <div className="card-wrap">
           {/* this whole card needs to be a link or have a link?? */}
-            <div>{icon}</div>
+            <div className="icon-container">
+              <i className={`${icon}`}></i>
+            </div>
             <h5>{title}</h5>
         </div>
       </button>

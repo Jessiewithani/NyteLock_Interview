@@ -1,44 +1,38 @@
 export const LogoTypes = [
   {
-    icon: '',
+    icon: 'fas fa-italic',
     title: 'Lettermark Logos',
     description: 'Lettermark Desc',
-    image: 'LOGO IMAGE',
     id: 1
   },
   {
-    icon: '',
+    icon: 'fab fa-weebly',
     title: 'Wordmark Logos',
     description: 'Wordmark Desc',
-    image: '',
     id: 2
   },
   {
-    icon: '',
+    icon: 'fas fa-lemon',
     title: 'Pictorial Mark Logos',
     description: 'Pictorial Desc',
-    image: '',
     id: 3
   },
   {
-    icon: '',
+    icon: 'fab fa-artstation',
     title: 'Abstract Mark Logos',
     description: 'Abstract Desc',
-    image: '',
     id: 4
   },
   {
-    icon: '',
+    icon: 'fas fa-theater-masks',
     title: 'Mascot Logos',
     description: 'Mascot Desc',
-    image: '',
     id: 5
   },
   {
-    icon: '',
+    icon: 'fas fa-puzzle-piece',
     title: 'Combination Logos',
     description: 'Combination Desc',
-    image: '',
     id: 6
   }
 ]

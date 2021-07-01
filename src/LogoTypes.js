@@ -1,11 +1,9 @@
-import '../public/images'
-
 export const LogoTypes = [
   {
     icon: '',
     title: 'Lettermark Logos',
     description: 'Lettermark Desc',
-    image: '',
+    image: 'LOGO IMAGE',
     id: 1
   },
   {

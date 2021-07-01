@@ -9,19 +9,16 @@ import { LogoTypes } from './LogoTypes';
 const App = () => {
 
   const [logo, setLogo] = useState(LogoTypes[0]);
-
-  // {console.log('logos', logo)}
+  const [logoEx, setLogoEx] = useState('/images/logo_ex_1.png')
 
   const handleLogoClick = (id) => {
-    // console.log('event', e.target)
-    console.log('id', id)
+    // console.log('id', id)
     for (let i = 0; i < LogoTypes.length; i++) {
       if (id === LogoTypes[i].id) {
         setLogo(LogoTypes[i])
-        console.log('set',logo)
+        setLogoEx(`/images/logo_ex_${LogoTypes[i].id}.png`)
       }
     }
-    
   }
 
   return (
@@ -34,7 +31,7 @@ const App = () => {
           </div>
         </section>
         <section className="logo-description-container">
-          <LogoDescription logo={logo} />
+          <LogoDescription logo={logo} logoEx={logoEx}/>
         </section>
       </div>
     </div>

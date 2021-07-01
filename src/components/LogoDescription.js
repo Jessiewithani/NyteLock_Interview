@@ -16,7 +16,7 @@ const LogoDescription = ({logo, logoEx}) => {
           <p className="logo-detail">{logo.description}</p>
         </div>
       </div>
-      <div className="logo-examples">
+      <div className="logo-examples-container">
         <img src={logoEx} alt="logo-image" className="logo-images"/>
       </div>
     </section>

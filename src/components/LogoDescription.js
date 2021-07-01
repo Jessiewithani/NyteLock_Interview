@@ -13,7 +13,8 @@ const LogoDescription = ({logo, logoEx}) => {
           <h2 className="logo-title">{logo.title}</h2>
         </div>
         <div className="logo-detail-container">
-          <p className="logo-detail">{logo.description}</p>
+          <p className="logo-detail">{logo.descriptionOne}</p>
+          <p className="logo-detail">{logo.descriptionTwo}</p>
         </div>
       </div>
       <div className="logo-examples-container">

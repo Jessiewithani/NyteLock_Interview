@@ -10,7 +10,7 @@ const LogoCard = ({icon, title, handleLogoClick}) => {
             <div className="icon-container">
               <i className={`${icon}`}></i>
             </div>
-            <h5>{title}</h5>
+            <h5 className="logo-title">{title}</h5>
         </div>
       </button>
     

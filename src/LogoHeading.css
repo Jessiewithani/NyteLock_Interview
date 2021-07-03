@@ -60,3 +60,37 @@
   margin-bottom: 45px;
 }
 
+.contact-btn {
+  width: 180px;
+  height: 52px;
+  border-radius: 25px;
+}
+
+.right-arrow-circle {
+  width: 7px;
+  height: 7px;
+  color: black;
+  background-color: white;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.flaticon-right-arrow-1:before {
+  content: "\f101";
+  font-family: Flaticon;
+}
+/* 
+.flaticon-right-arrow-1:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+

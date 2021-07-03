@@ -1,10 +1,26 @@
 .logo-card {
   background-color: white;
-  height: 170px;
-  width: 138px;
+  height: 169px;
+  width: 167px;
   border: 2px solid black;
   border-radius: 15px;
   padding-left: 15px;
   padding-right: 15px;
   
+}
+
+.icon-container {
+  height: 32px;
+  width: 135px;
+  background-color: gold;
+}
+
+.fas {
+  width: 20px;
+  font-size: 32px;
+}
+
+.fab {
+  width: 20px;
+  font-size: 32px;
 }

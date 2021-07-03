@@ -2,7 +2,7 @@ import React from 'react';
 import '../LogoCard.css';
 
 
-const LogoCard = ({icon, title, handleLogoClick}) => {
+const LogoCard = ({icon, titleFirst, titleLast, handleLogoClick}) => {
   return (
       <button className="logo-card" onClick={handleLogoClick}>
         <div className="card-wrap">
@@ -10,7 +10,9 @@ const LogoCard = ({icon, title, handleLogoClick}) => {
             <div className="icon-container">
               <i className={`${icon}`}></i>
             </div>
-            <h5 className="logo-title">{title}</h5>
+            <h5 className="logo-name">{`${titleFirst}`}</h5>
+            <br></br>
+            <h5 className="logo-name-ending">{`${titleLast}`}</h5>
         </div>
       </button>
     

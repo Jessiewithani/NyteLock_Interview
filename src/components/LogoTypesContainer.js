@@ -10,7 +10,8 @@ const LogoTypesContainer = ({logos, handleLogoClick}) => {
       key={logo.id} 
       id={logo.id}
       icon={logo.icon} 
-      title={logo.title} 
+      titleFirst={logo.titleFirst} 
+      titleLast={logo.titleLast}
       handleLogoClick={() => handleLogoClick(logo.id)}
     />
   })

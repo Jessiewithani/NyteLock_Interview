@@ -14,11 +14,12 @@
 }
 
 .logo-types-container {
-  background-color: white;
+  background-color: rgb(96,96,96);
+  /* background-image: linear-gradient(145deg, #4F4F4F 0%, #282828); */
   height: 450px;
   border-radius: 15px;
   padding-top: 110px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin-bottom: 90px;
   
 }

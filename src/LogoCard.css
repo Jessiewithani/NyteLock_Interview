@@ -2,16 +2,17 @@
   background-color: white;
   height: 169px;
   width: 167px;
-  border: 2px solid black;
   border-radius: 15px;
   padding-left: 15px;
   padding-right: 15px;
   cursor: pointer;
+  border-color: rgba(255, 255, 255, 0.25)
 }
 
 .icon-container {
   height: 32px;
   width: 135px;
+  margin-bottom: 20px;
 }
 
 .fas {
@@ -26,8 +27,11 @@
   color: #FFCC29;
 }
 
-.logo-title {
+.logo-name , .logo-name-ending {
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600px;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: -0.9px;
 }
+

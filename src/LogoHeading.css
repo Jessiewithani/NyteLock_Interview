@@ -3,7 +3,8 @@
   /* background-color: bisque; */
   display: flex;
   align-items: flex-end;
-  font-family: sans-serif
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .heading-wrapper {
@@ -64,6 +65,15 @@
   margin-right: 15px;
   background-color: rgb(255, 204, 41);
   border: none;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  color: white;
+  text-decoration: underline;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  opacity: 1;
+  transition-timing-function: ease;
 }
 
 .contact-us {

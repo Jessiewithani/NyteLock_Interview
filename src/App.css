@@ -33,10 +33,10 @@
 }
 
 .logo-description-container {
-  background-color: cornsilk;
+  /* background-color: cornsilk; */
   display: flex;
   height: 470px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin-bottom: 90px;
   justify-content: center;
 }

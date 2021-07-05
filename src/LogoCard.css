@@ -13,6 +13,13 @@
 
 }
 
+.logo-card:hover{
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #FFCC29;
+}
+
 .icon-container {
   height: 32px;
   width: 135px;
@@ -25,11 +32,15 @@
   color: #FFCC29;
 }
 
+
+
 .fab {
   width: 20px;
   font-size: 32px;
   color: #FFCC29;
 }
+
+
 
 .logo-name , .logo-name-ending {
   font-size: 16px;

@@ -1,12 +1,12 @@
 .App {
   text-align: center;
-  background-color: black;
+  /* background-color: black; */
   height: 100vh;
   margin: 0;
 }
 
 .logo-services-container {
-  background-color: gold;
+  /* background-color: gold; */
   height: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -14,8 +14,8 @@
 }
 
 .logo-types-container {
-  background-color: rgb(96,96,96);
-  /* background-image: linear-gradient(145deg, #4F4F4F 0%, #282828); */
+  /* background-color: rgb(96,96,96); */
+  background-image: linear-gradient(145deg, #4F4F4F 0%, #282828);
   height: 450px;
   border-radius: 15px;
   padding-top: 110px;
@@ -26,7 +26,7 @@
 
 .logo-types-wrapper {
   height: 360px;
-  background-color: black;
+  /* background-color: black; */
   margin-left: 105px;
   margin-right: 105px;
 

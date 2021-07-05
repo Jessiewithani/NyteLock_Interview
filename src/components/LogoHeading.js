@@ -16,7 +16,9 @@ const LogoHeading = () => {
       </div>
       <div className="contact-btn-container">
         <button className="contact-btn">
-          <span className="cont-btn-span">Contact Us <i /*src="/images/right-arrow.png"*/ className="flaticon-right-arrow-1 right-arrow-circle"></i></span>
+          <h6 className="contact-us">Contact Us </h6>
+          <div className="btn-circle"><img src="images/right-arrow-1.svg" className="right-arrow"/>
+</div>
         </button>
       </div>
     </section>

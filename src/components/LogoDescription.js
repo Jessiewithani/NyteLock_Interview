@@ -10,10 +10,12 @@ const LogoDescription = ({logo, logoEx}) => {
     <section className="logo-description-wrapper">
       <div className="logo-description-section">
         <div className="logo-title-container">
-          <h2 className="logo-title">{logo.title}</h2>
+          <h2 className="logo-title">`${logo.titleFirst}${logo.titleLast}`</h2>
         </div>
         <div className="logo-detail-container">
           <p className="logo-detail">{logo.descriptionOne}</p>
+          <br/>
+          <br/>
           <p className="logo-detail">{logo.descriptionTwo}</p>
         </div>
       </div>

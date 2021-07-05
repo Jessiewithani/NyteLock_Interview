@@ -1,6 +1,6 @@
 .logo-heading-container {
   height: 156px;
-  background-color: bisque;
+  /* background-color: bisque; */
   display: flex;
   align-items: flex-end;
   font-family: sans-serif
@@ -8,7 +8,7 @@
 
 .heading-wrapper {
   height: 110px;
-  background-color: grey;
+  /* background-color: grey; */
   width: 819px;
   margin-bottom: 45px;
   font-family: 'Montserrat', sans-serif;
@@ -20,77 +20,76 @@
   
 }
 
-/* .sub-heading {
-  background-color: white;
-  height: 16px;
-  width: 486px;
-  text-align: start;
-  margin-left: 35px;
-} */
-
 .h6-heading {
   letter-spacing: 1px;
   margin: 0;
   line-height: 30px;
   font-size: 14px;
   color: rgb(255, 204, 41);
-  margin-left: 25px;
 }
 
-/* .h6-heading::before {
-  content: '';
-  background-color: black;
-  border-radius: 50%;
-  width: 7px;
-  height: 7px;
-  position: absolute;
-  box-sizing: border-box;
-  margin: 0;
-} */
+.h6-heading::before {
+    display: inline-block;
+    content: '';
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    margin: 0px 20px 2px 2px;
+    background-color: rgb(255, 204, 41);
+}
 
 .h2-main-heading {
   margin: 0;
   font-size: 36px;
   font-weight: 500;
+  color: white;
 }
 .contact-btn-container {
-  background-color: green;
+  /* background-color: green; */
   width: 377px;
   height: 110px;
   margin-bottom: 45px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .contact-btn {
   width: 180px;
   height: 52px;
   border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15px;
+  background-color: rgb(255, 204, 41);
+  border: none;
 }
 
-.right-arrow-circle {
+.contact-us {
+  font-size: 16px;
+  margin: 0;
+  margin-left: 20px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.btn-circle {
   width: 7px;
   height: 7px;
-  color: black;
+  /* color: black; */
   background-color: white;
-  display: inline-block;
+  /* display: inline-block; */
   height: 40px;
   width: 40px;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
 }
 
-.flaticon-right-arrow-1:before {
-  content: "\f101";
-  font-family: Flaticon;
+.right-arrow {
+  width: 18px;
 }
-/* 
-.flaticon-right-arrow-1:before {
-  font-family: flaticon !important;
-  font-style: normal;
-  font-weight: normal !important;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
+
 
 

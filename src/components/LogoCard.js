@@ -2,9 +2,9 @@ import React from 'react';
 import '../LogoCard.css';
 
 
-const LogoCard = ({icon, titleFirst, titleLast, handleCardClick, buttonColor, active}) => {
+const LogoCard = ({icon, titleFirst, titleLast, handleCardClick, buttonColor}) => {
   return (
-      <button className="logo-card" style={{backgroundColor: buttonColor}} onClick={handleCardClick} active={active}>
+      <button className="logo-card" style={{backgroundColor:buttonColor}} onClick={handleCardClick}>
         <div className="card-wrap">
           {/* this whole card needs to be a link or have a link?? */}
             <div className="icon-container">

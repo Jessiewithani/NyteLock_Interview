@@ -3,7 +3,7 @@ import '../LogoTypesContainer.css';
 import LogoCard from '../components/LogoCard';
 
 
-const LogoTypesContainer = ({logos, handleCardClick, buttonColor, active}) => {
+const LogoTypesContainer = ({logos, handleCardClick, buttonColor}) => {
 
   const logoType = logos.map(logo => {
     return <LogoCard 
@@ -14,7 +14,6 @@ const LogoTypesContainer = ({logos, handleCardClick, buttonColor, active}) => {
       titleLast={logo.titleLast}
       handleCardClick={() => handleCardClick(logo.id)}
       buttonColor={buttonColor}
-      active={active}
       
     />
   })

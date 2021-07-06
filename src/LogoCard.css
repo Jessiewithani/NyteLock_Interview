@@ -22,7 +22,16 @@
 
 .logo-card:hover * {
   color: black;
+
   /* text-shadow: 8px 8px 18px rgb(1 96 231 / 30%); */
+}
+
+.logo-card:hover .fas{
+  text-shadow: 8px 8px 8px rgb(1 96 231 / 30%);
+}
+
+.logo-card:hover .fab{
+  text-shadow: 8px 8px 8px rgb(1 96 231 / 30%);
 }
 
 .icon-container {

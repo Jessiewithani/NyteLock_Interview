@@ -10,7 +10,6 @@
   cursor: pointer;
   border-color: rgba(255, 255, 255, 0.25);
   border-width: 1px;
-
 }
 
 .logo-card:hover {
@@ -34,6 +33,10 @@
   text-shadow: 8px 8px 8px rgb(1 96 231 / 30%);
 }
 
+.logo-card:focus {
+  outline: none;
+}
+
 .active {
   background-color: white;
   color: black;
@@ -51,7 +54,8 @@
   text-shadow: 8px 8px 8px rgb(1 96 231 / 30%);
 }
 
-.active::after {
+.active::after { 
+  /* change square to triangle */
   content: "";
   visibility: visible;
   opacity: 1;
@@ -64,6 +68,8 @@
   margin-left: -15px;
   border-radius: 4px;
   /* visibility: hidden; */
+  clip-path: polygon(0 1%, 0 100%, 100% 100%);
+
   
 }
 
@@ -92,5 +98,6 @@
   font-weight: 600;
   letter-spacing: -0.9px;
 }
+
 
 

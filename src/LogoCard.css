@@ -13,7 +13,7 @@
 
 }
 
-.logo-card:hover{
+.logo-card:hover {
   background-color: white;
   color: black;
   text-decoration: underline;
@@ -34,7 +34,24 @@
   text-shadow: 8px 8px 8px rgb(1 96 231 / 30%);
 }
 
-.card-wrap::after {
+.active {
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #FFCC29;
+}
+
+.active .fas{
+  color: black;
+  text-shadow: 8px 8px 8px rgb(1 96 231 / 30%);
+}
+
+.active .fab{
+  color: black;
+  text-shadow: 8px 8px 8px rgb(1 96 231 / 30%);
+}
+
+.active::after {
   content: "";
   visibility: visible;
   opacity: 1;
@@ -43,10 +60,10 @@
   position: absolute;
   background-color: white;
   transform: rotate(-45deg);
-  /* z-index: -1 */
+  z-index: 1;
   margin-left: -15px;
   border-radius: 4px;
-  visibility: hidden;
+  /* visibility: hidden; */
   
 }
 
@@ -62,15 +79,11 @@
   color: #FFCC29;
 }
 
-
-
 .fab {
   width: 20px;
   font-size: 32px;
   color: #FFCC29;
 }
-
-
 
 .logo-name , .logo-name-ending {
   font-size: 16px;
@@ -79,4 +92,5 @@
   font-weight: 600;
   letter-spacing: -0.9px;
 }
+
 

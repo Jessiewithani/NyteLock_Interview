@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../LogoTypesContainer.css';
 import LogoCard from '../components/LogoCard';
 
 
-const LogoTypesContainer = ({logos, handleLogoClick}) => {
+const LogoTypesContainer = ({logos, handleCardClick, buttonColor, active}) => {
 
   const logoType = logos.map(logo => {
     return <LogoCard 
@@ -12,7 +12,10 @@ const LogoTypesContainer = ({logos, handleLogoClick}) => {
       icon={logo.icon} 
       titleFirst={logo.titleFirst} 
       titleLast={logo.titleLast}
-      handleLogoClick={() => handleLogoClick(logo.id)}
+      handleCardClick={() => handleCardClick(logo.id)}
+      buttonColor={buttonColor}
+      active={active}
+      
     />
   })
   return (

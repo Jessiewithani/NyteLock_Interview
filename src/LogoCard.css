@@ -20,6 +20,11 @@
   text-decoration-color: #FFCC29;
 }
 
+.logo-card:hover * {
+  color: black;
+  /* text-shadow: 8px 8px 18px rgb(1 96 231 / 30%); */
+}
+
 .icon-container {
   height: 32px;
   width: 135px;

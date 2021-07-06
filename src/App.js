@@ -10,16 +10,35 @@ const App = () => {
 
   const [logo, setLogo] = useState(LogoTypes[0]);
   const [logoEx, setLogoEx] = useState('/images/logo_ex_1.png')
+  const [buttonColor, setButtonColor] = useState("")
+  // const [active, setActive] = useState(LogoTypes[0].active == true)
 
-  const handleLogoClick = (id) => {
-    // console.log('id', id)
+
+  const handleCardClick = (id) => {
+    console.log('id', id)
     for (let i = 0; i < LogoTypes.length; i++) {
+      // console.log('active?', active)
       if (id === LogoTypes[i].id) {
         setLogo(LogoTypes[i])
         setLogoEx(`/images/logo_ex_${LogoTypes[i].id}.png`)
+        // setActive(true)
+        // console.log('active??', active)
+        // handleActiveButton()
+        break;
       }
     }
   }
+
+  // const handleActiveButton = () => {
+  //   const newColor = buttonColor === "white" ? "" : "white"
+  //   // setButtonColor(newColor)
+  //   for (let i = 0; i < LogoTypes.length; i++) {
+  //     if (LogoTypes[i].active === true) {
+  //       setButtonColor(newColor)
+  //       console.log('buttonColor')
+  //     }
+  //   }
+  // }
 
   return (
     <div className="App">
@@ -27,7 +46,7 @@ const App = () => {
         <section className="logo-types-container">
           <div className="logo-types-wrapper">
             <LogoHeading />
-            <LogoTypesContainer logos={LogoTypes} handleLogoClick={(id) => handleLogoClick(id)}/>
+            <LogoTypesContainer logos={LogoTypes} handleCardClick={(id) => handleCardClick(id)} buttonColor={buttonColor} /*active={active}*//>
           </div>
         </section>
         <section className="logo-description-container">

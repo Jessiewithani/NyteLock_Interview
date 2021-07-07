@@ -1,15 +1,15 @@
 .logo-card {
-  color: white;
-  box-shadow: none;
   background-color: transparent;
-  height: 169px;
-  width: 167px;
+  border-color: rgba(255, 255, 255, 0.25);
   border-radius: 15px;
+  border-width: 1px;
+  box-shadow: none;
+  color: white;
+  cursor: pointer;
+  height: 169px;
   padding-left: 15px;
   padding-right: 15px;
-  cursor: pointer;
-  border-color: rgba(255, 255, 255, 0.25);
-  border-width: 1px;
+  width: 167px;
 }
 
 .logo-card:hover {
@@ -21,8 +21,6 @@
 
 .logo-card:hover * {
   color: black;
-
-  /* text-shadow: 8px 8px 18px rgb(1 96 231 / 30%); */
 }
 
 .logo-card:hover .fas{
@@ -55,48 +53,44 @@
 }
 
 .active::after { 
-  /* change square to triangle */
-  content: "";
-  visibility: visible;
-  opacity: 1;
-  width: 40px;
-  height: 40px;
-  position: absolute;
   background-color: white;
-  transform: rotate(-45deg);
-  z-index: 1;
-  margin-left: -15px;
   border-radius: 4px;
-  /* visibility: hidden; */
   clip-path: polygon(0 1%, 0 100%, 100% 100%);
-
-  
+  content: "";
+  height: 40px;
+  margin-left: -15px;
+  opacity: 1;
+  position: absolute;
+  transform: rotate(-45deg);
+  visibility: visible;
+  width: 40px;
+  z-index: 1;
 }
 
 .icon-container {
   height: 32px;
-  width: 135px;
   margin-bottom: 20px;
+  width: 135px;
 }
 
 .fas {
-  width: 20px;
-  font-size: 32px;
   color: #FFCC29;
+  font-size: 32px;
+  width: 20px;
 }
 
 .fab {
-  width: 20px;
-  font-size: 32px;
   color: #FFCC29;
+  font-size: 32px;
+  width: 20px;
 }
 
 .logo-name , .logo-name-ending {
-  font-size: 16px;
   font-family: 'Montserrat', sans-serif;
-  margin: 0;
+  font-size: 16px;
   font-weight: 600;
   letter-spacing: -0.9px;
+  margin: 0;
 }
 
 

@@ -17,8 +17,9 @@ const LogoHeading = () => {
       <div className="contact-btn-container">
         <button className="contact-btn">
           <h6 className="contact-us">Contact Us </h6>
-          <div className="btn-circle"><img src="images/right-arrow-1.svg" className="right-arrow"/>
-</div>
+          <div className="btn-circle">
+            <img src="images/right-arrow-1.svg" className="right-arrow"/>
+          </div>
         </button>
       </div>
     </section>

@@ -1,63 +1,51 @@
 .logo-description-wrapper {
-  width: 1140px;
-  /* background-color: wheat; */
   display: flex;
   padding-left: 15px;
-
+  width: 1140px;
 }
 
 .logo-description-section {
   height: 434px;
   width: 570px;
-  /* background-color: lightgrey; */
-  /* border: 2px solid black; */
 }
 
 .logo-title-container {
   height:62px;
-  /* background-color: white; */
-  /* border: 2px solid black; */
 }
 
 .logo-title {
-  font-family: 'Montserrat', sans-serif;
-;
   color: rgb(26, 27, 30);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
   margin: 0;
   text-align: start;
-  font-size: 36px;
-  font-weight: 700
 }
 
 .logo-detail-container {
   height: 368px;
-  /* background-color: lightpink; */
 }
 
 .logo-detail {
-  margin: 0;
-  text-align: start;
   color: rgb(96, 96, 96);
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 30px;
+  margin: 0;
+  text-align: start;
   width: 475px;
-  /* word-wrap: break-word; */
-
 }
 
 .logo-examples-container {
-  height: 368px;
-  width: 570px;
-  /* background-color: darkgrey; */
-  /* border: 2px solid black; */
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
+  height: 368px;
+  justify-content: center;
+  width: 570px;
 }
 
 .logo-images {
   height: 177px;
-  width: 540px;
   margin-bottom: 15px;
+  width: 540px;
 }

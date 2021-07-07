@@ -14,8 +14,6 @@ const LogoTypesContainer = ({activeLogo, logos, handleCardClick}) => {
       titleLast={logo.titleLast}
       handleCardClick={() => handleCardClick(logo.id)}
       active={activeLogo.id === logo.id}
-
-      
     />
   })
   return (
@@ -23,6 +21,6 @@ const LogoTypesContainer = ({activeLogo, logos, handleCardClick}) => {
         {logoType}
     </section>
   )
-}
+};
 
 export default LogoTypesContainer;

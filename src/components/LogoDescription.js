@@ -1,11 +1,8 @@
 import React from 'react';
-import '../LogoDescription.css'
+import '../LogoDescription.css';
 
 
 const LogoDescription = ({logo, logoEx}) => {
-
-  console.log('img', logoEx)
-  
   return (
     <section className="logo-description-wrapper">
       <div className="logo-description-section">
@@ -24,6 +21,6 @@ const LogoDescription = ({logo, logoEx}) => {
       </div>
     </section>
   )
-}
+};
 
 export default LogoDescription;

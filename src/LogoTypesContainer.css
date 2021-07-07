@@ -1,6 +1,5 @@
 .logo-cards-container {
-  height: 204px;
-  /* background-color: tan; */
   display: flex;
+  height: 204px;
   justify-content: space-around;
 }

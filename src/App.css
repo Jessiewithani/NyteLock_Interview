@@ -1,12 +1,10 @@
 .App {
-  text-align: center;
-  /* background-color: black; */
   height: 100vh;
   margin: 0;
+  text-align: center;
 }
 
 .logo-services-container {
-  /* background-color: gold; */
   height: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -14,31 +12,24 @@
 }
 
 .logo-types-container {
-  /* background-color: rgb(96,96,96); */
   background-image: linear-gradient(145deg, #4F4F4F 0%, #282828);
-  height: 450px;
   border-radius: 15px;
-  padding-top: 110px;
-  /* border: 2px solid black; */
+  height: 450px;
   margin-bottom: 90px;
-  
+  padding-top: 110px;
 }
 
 .logo-types-wrapper {
   height: 360px;
-  /* background-color: black; */
   margin-left: 105px;
   margin-right: 105px;
-
 }
 
 .logo-description-container {
-  /* background-color: cornsilk; */
   display: flex;
   height: 470px;
-  /* border: 2px solid black; */
-  margin-bottom: 90px;
   justify-content: center;
+  margin-bottom: 90px;
 }
 
 

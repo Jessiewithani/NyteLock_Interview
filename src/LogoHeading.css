@@ -1,21 +1,110 @@
 .logo-heading-container {
-  height: 156px;
-  background-color: bisque;
-  display: flex;
   align-items: flex-end;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  height: 156px;
 }
 
 .heading-wrapper {
+  align-items: flex-start;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  flex-direction: column;
   height: 110px;
-  background-color: pink;
+  justify-content: center;
+  margin-bottom: 45px;
+  padding-left: 30px;
   width: 819px;
+  
+}
+
+.h6-heading {
+  color: rgb(255, 204, 41);
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.h6-heading::before {
+  background-color: rgb(255, 204, 41);
+  border-radius: 50%;
+  content: '';
+  display: inline-block;
+  height: 7px;
+  margin: 0px 20px 2px 2px;
+  width: 7px;
+}
+
+.h2-main-heading {
+  color: white;
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0;
+}
+.contact-btn-container {
+  align-items: center;
+  display: flex;
+  width: 377px;
+  height: 110px;
+  justify-content: flex-end;
   margin-bottom: 45px;
 }
 
-.contact-btn-container {
-  background-color: green;
-  width: 377px;
-  height: 110px;
-  margin-bottom: 45px;
+.contact-btn {
+  align-items: center;
+  background-color: rgb(255, 204, 41);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  justify-content: space-between;
+  margin-right: 15px;
+  width: 180px;
 }
+
+.contact-btn:hover {
+  color: white;
+  opacity: 1;
+  text-decoration: underline;
+  transition-timing-function: ease;
+}
+
+  /* this was my next attempt for the contact button animation
+  this is my work in progress, wasn't quite working, so I need to mess with it more
+  .contact-btn::before {
+  content: '';
+  position:absolute;
+  top: 0;
+  left: 0; 
+  width: 180;
+  height: 52;
+  transition: all 0.5s;
+  transform: translate(-105%, 0);
+  background-color: white;
+}  */
+
+.contact-us {
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.btn-circle {
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+
+.right-arrow {
+  width: 18px;
+}
+
+
 
